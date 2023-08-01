@@ -26,7 +26,7 @@ public class Task3 {
 						break;
 				}				
 			
-				System.out.print(c+""+count);
+				System.out.print(c+""+count+" ");
 			}}		
     }     
 

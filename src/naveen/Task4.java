@@ -6,7 +6,7 @@ public class Task4 {
 	public static void main(String[] args) 
 	{
         
-		int num=947;
+		int num=153;
 		int temp=num,temp2=num;
 		int count=0,prod=1,sum=0;
 		int rem=0;
