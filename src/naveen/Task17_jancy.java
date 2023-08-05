@@ -2,6 +2,7 @@ package naveen;
 
 public class Task17_jancy {
 
+	
 	public static void main(String[] args) {
 
 		String input="helloworld";

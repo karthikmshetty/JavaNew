@@ -14,22 +14,38 @@ public class Pattern4 {
 		
 		for(int i=1;i<=5;i++)
 		{
-			for(int j=i;j<=5;j++)
+			for(int j=1;j<=5;j++)
 			{
-				System.out.print("  "); // we need to give two space, bcz in printing star im giving space so i need 
-				                        // to give two space otherwise star will shift towards right side and will 
-				                        // become triangle
+				if(i+j>5)
+				System.out.print("* ");
+				else
+					System.out.print("  ");
 			}
-			
-			for(int k=1;k<=i;k++)
-			{
-			System.out.print("* ");
-			}
-	
 			System.out.println();
-
 		}
 		
+		
+		
+		
+		
+//		for(int i=1;i<=5;i++)
+//		{
+//			for(int j=i;j<=5;j++)
+//			{
+//				System.out.print("  "); // we need to give two space, bcz in printing star im giving space so i need 
+//				                        // to give two space otherwise star will shift towards right side and will 
+//				                        // become triangle
+//			}
+//			
+//			for(int k=1;k<=i;k++)
+//			{
+//			System.out.print("* ");
+//			}
+//	
+//			System.out.println();
+//
+//		}
+//		
 
 
 	}
