@@ -11,7 +11,7 @@ public class Task_20 {
 		
      String input="bangmangind";
      LinkedHashMap<Character,Integer> map=new LinkedHashMap();
-     
+  
      for(int i=0;i<input.length();i++)
      {
     	 map.put(input.charAt(i),map.getOrDefault(input.charAt(i),0)+1);

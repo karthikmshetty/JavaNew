@@ -10,7 +10,6 @@ public class Task13 {
 		int sum=0;
 		for(int i=0;i<input.length();i++)
 		{
-			
 		if(Character.isDigit(input.charAt(i)))
 		{
 			int num=Character.getNumericValue(input.charAt(i));
