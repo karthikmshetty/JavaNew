@@ -35,4 +35,21 @@ public class CountDupChar_String {
 		}
 	}
 
+	   //  public static void main(String[] args) {
+    //     String s = "Tester";
+    //     String s1 = s.toLowerCase();
+    //     Map<Character, Integer> charCountMap = new HashMap<>();
+
+    //     // Count character occurrences
+    //     for (char ch : s1.toCharArray()) {
+    //         charCountMap.put(ch, charCountMap.getOrDefault(ch, 0) + 1);
+    //     }
+
+    //     // Print only duplicate characters
+    //     for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
+    //         if (entry.getValue() > 1) {
+    //             System.out.println(entry.getKey() + " is repeated " + entry.getValue() + " times");
+    //         }
+    //     }
+    // }
 }
