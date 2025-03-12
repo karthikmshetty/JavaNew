@@ -4,30 +4,28 @@ public class RemoveDup_wthout_Collection {
 
 	public static void main(String[] args) {
 
-		String input="wwwpreethwp";
+	        String input = "wwwpreethwp";
+        StringBuilder sb = new StringBuilder();
 
-		char []ch=input.toCharArray();
-		boolean []b=new boolean[ch.length];
-		
-		for(int i=0;i<ch.length;i++)
-		{
-		if(!b[i])
-		{
-		char c=ch[i];
-		
-		for(int j=0;j<ch.length;j++)
-		{
-			if(c==ch[j])
-			{
-				b[j]=true;
-			}
-			
-		}
-			System.out.print(c);
-			
-		}
-		
-		}
+        for (int i = 0; i < input.length(); i++) {
+            char currentChar = input.charAt(i);
+            boolean isDuplicate = false;
+
+            // Check if character already exists in sb
+            for (int j = 0; j < sb.length(); j++) {
+                if (sb.charAt(j) == currentChar) {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            // Append if not a duplicate
+            if (!isDuplicate) {
+                sb.append(currentChar);
+            }
+        }
+
+        System.out.println("After removing duplicates: " + sb.toString());
 		
 	}
 
