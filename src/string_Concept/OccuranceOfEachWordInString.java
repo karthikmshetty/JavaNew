@@ -2,6 +2,9 @@ package string_Concept;
 
 import java.util.LinkedHashSet;
 
+
+// Here also we can directly use map.getOrDefault()
+
 public class OccuranceOfEachWordInString {
 
 	public static void main(String[] args) {
